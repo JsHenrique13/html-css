@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0px;
+    margin: 0px;
+    
+}
+header{
+    margin: auto;
+    text-align: center;
+}
+nav{
+    text-align: right;
+}
+footer > p {
+    margin: 0px ;
+}
+
+footer{
+    padding: 4px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.cont{
+    margin: 10px;
+    background-color: rgb(75, 161, 133);
+}
+
+nav > a{
+    margin-right: 25px;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+ul{
+    display: none;
+}
+
+a:hover > ul{
+    
+    display: table;
+    background-color: azure;
+}
